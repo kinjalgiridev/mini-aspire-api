@@ -71,6 +71,7 @@ The api can be accessed at [http://localhost:8000/api](http://localhost:8000/api
 ## API Specification
 
 > [Full Postman API Spec](https://api.postman.com/collections/6140585-a951d199-4917-4af9-9e85-844bf85d6bd3?access_key=PMAT-01GQJ6JYVQAZG1ZA89RR050S4P)
+> [Postman Collection file in repo](https://raw.githubusercontent.com/kinjalgiridev/mini-aspire-api/main/mini-aspire-api.postman_collection.json)
 
 ----------
 
