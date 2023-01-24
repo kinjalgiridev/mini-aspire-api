@@ -137,6 +137,16 @@ class LoanController extends Controller
             // load article
             $loan = Loan::find($id);
 
+            if (!$loan) {
+                return response()->json(
+                    [
+                        'status' => 'error',
+                        'message' => 'Loan not found'
+                    ],
+                    200
+                );
+            }
+
             if ($user->can('update', $loan)) {
 
                 $validator = Validator::make($request->all(), [

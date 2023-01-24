@@ -56,7 +56,7 @@ class LoanPolicy
      */
     public function update(User $user, Loan $loan)
     {
-        return ($user->id === $loan->created_by || $user->role_id === 1)
+        return ($user->role_id === 1)
         ? Response::allow()
         : Response::deny('You do not own this loan.');
     }
